@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rasm3"
+    tools:context=".birinchiEASY.PlayActivity">
+
+    <TextView
+        android:text="Bolalar Metematikasi"
+        android:textAlignment="center"
+        android:textColor="#F1532B"
+        android:fontFamily="@font/the_bomb"
+        android:textSize="29sp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/addtion"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/pilus" />
+
+        <ImageView
+            android:id="@+id/sub"
+            android:src="@drawable/minus"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/multi"
+            android:src="@drawable/kopay1"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+         <ImageView
+            android:id="@+id/divie"
+            android:src="@drawable/division"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
